@@ -169,9 +169,7 @@ const CardWeather = ({ lat, lon }) => {
           </article>
           
         </section>
-        <div className='Up'>
-        <a href="#top">Up</a>
-        </div>
+        
         </div>
     );
   }
