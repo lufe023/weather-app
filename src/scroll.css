@@ -1,0 +1,21 @@
+/* customized scroll */
+
+
+
+body::-webkit-scrollbar{
+width: 20px;
+background-clip: content-box;
+border-radius: 6px;
+
+border-radius: 2px;
+background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+background-image: url("/public/img/sun.png");
+background-repeat: no-repeat;
+background-size: 150%;
+position: relative;
+right: 100px;
+width: 100px;
+}

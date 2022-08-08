@@ -1,50 +1,50 @@
 [
     {
         "name" : "default",
-        "URL" : "../../public/video/default.mp4",
-        "imgAlt" : "../../public/img/City default.jfif"
+        "URL" : "https://fancy-sunburst-fd3e57.netlify.app/video/default.mp4",
+        "imgAlt" : "https://fancy-sunburst-fd3e57.netlify.app/img/City default.jfif"
     },
 
     {
         "name" : "Clear",
-        "URL" : "../../public/video/Clear.mp4",
-        "imgAlt" : "../../public/img/clear-blue-sky.webp"
+        "URL" : "https://fancy-sunburst-fd3e57.netlify.app/video/Clear.mp4",
+        "imgAlt" : "https://fancy-sunburst-fd3e57.netlify.app/img/clear-blue-sky.webp"
     },
 
     {
         "name" : "Clouds",
         "URL" : "https://fancy-sunburst-fd3e57.netlify.app/video/Clouds.mp4",
-        "imgAlt" : "../../public/img/Cloud.jpg"
+        "imgAlt" : "https://fancy-sunburst-fd3e57.netlify.app/img/Cloud.jpg"
     },
 
     {
         "name" : "Thunderstorm",
-        "URL" : "../../public/video/Thunderstorm.mp4",
-        "imgAlt" : "../../public/img/Thunderstorm.webp"
+        "URL" : "https://fancy-sunburst-fd3e57.netlify.app/video/Thunderstorm.mp4",
+        "imgAlt" : "https://fancy-sunburst-fd3e57.netlify.app/img/Thunderstorm.webp"
     },
 
     {
         "name" : "Drizzle",
-        "URL" : "../../public/video/Drizzle.mp4",
-        "imgAlt" : "../../public/img/drizzle.jpg"
+        "URL" : "https://fancy-sunburst-fd3e57.netlify.app/video/Drizzle.mp4",
+        "imgAlt" : "https://fancy-sunburst-fd3e57.netlify.app/img/drizzle.jpg"
     },
 
     {
         "name" : "Rain",
-        "URL" : "../../public/video/Rain.mp4",
-        "imgAlt" : "../../public/img/Rain.jpg"
+        "URL" : "https://fancy-sunburst-fd3e57.netlify.app/video/Rain.mp4",
+        "imgAlt" : "https://fancy-sunburst-fd3e57.netlify.app/img/Rain.jpg"
     },
 
     {
         "name" : "Snow",
-        "URL" : "../../public/video/Snow.mp4",
-        "imgAlt" : "../../public/img/Snow.webp"
+        "URL" : "https://fancy-sunburst-fd3e57.netlify.app/video/Snow.mp4",
+        "imgAlt" : "https://fancy-sunburst-fd3e57.netlify.app/img/Snow.webp"
     },
 
     {
         "name" : "Ssdsd",
-        "URL" : "../../public/video/Snow.mp4",
-        "imgAlt" : "../../public/img/sdsdd.jpg"
+        "URL" : "https://fancy-sunburst-fd3e57.netlify.app/video/Snow.mp4",
+        "imgAlt" : "https://fancy-sunburst-fd3e57.netlify.app/img/sdsdd.jpg"
     }
 
 ]

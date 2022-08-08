@@ -3,7 +3,7 @@ import React from 'react'
 const footer = () => {
   return (
     <div className='Footer'>
-        <div className='Up'>Up</div>
+        
         <div className='footerContainer footerA'>
         <ul className='footerList'>
             <h3>Credit to</h3>

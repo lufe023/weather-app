@@ -1,4 +1,4 @@
-import React, { useEffect, useState, lazy, Suspense } from "react";
+import React, { useEffect, useState} from "react";
 import axios from "axios";
 import LoadingScreen from "./LoadingScreen";
 import video from "../../public/video/videos.json"
@@ -9,7 +9,7 @@ const CardWeather = ({ lat, lon }) => {
   const [isCelsius, setIsCelsius] = useState(true);
   const [isLoading, setIsLoading] = useState(true);
   const [weatherCondicion, setweatherCondicion] = useState("default");
-
+  const [icono, setIcono] = useState(`http://openweathermap.org/img/wn/${weather?.weather[0].icon}@4x.png`);
   useEffect(() => {
     if (lat) {
       const APIKey = "d7ad0ef9500759b6d3bbc51a5d6a6f5a";
@@ -33,7 +33,7 @@ const CardWeather = ({ lat, lon }) => {
   }, [lat, lon]);
 
   const handleClick = () => setIsCelsius(!isCelsius);
-
+  
   const moreTemps = {
      /* i'm adding temperture for human feel like */
     celsiusFeelsLike: `${Math.round(weather?.main.feels_like - 273.15)} °C`,
@@ -69,7 +69,7 @@ const CardWeather = ({ lat, lon }) => {
     return (
       
       <div className="container">
-        
+       
         <div className="Maincontainer">
         
   <video src={VideoURL} autoPlay={true} muted={true} loop={true} poster={imgAlt}></video>
@@ -151,8 +151,10 @@ const CardWeather = ({ lat, lon }) => {
             </button>
           </div>
         </article>
+      
         </div>
         <section className="moredata">
+          
           <article className="Card__APP">
           <h1>Extra Data</h1>
           <p>
@@ -162,12 +164,17 @@ const CardWeather = ({ lat, lon }) => {
           <li>Visibility {weather?.visibility/1000}km</li>
           
           </p>
-          {weather?.weather[0].main}
+          
+          
           </article>
+          
         </section>
+        <div className='Up'>
+        <a href="#top">Up</a>
+        </div>
         </div>
     );
   }
 };
 
-export default CardWeather;
+export default CardWeather
