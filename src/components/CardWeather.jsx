@@ -157,13 +157,27 @@ const CardWeather = ({ lat, lon }) => {
           
           <article className="Card__APP">
           <h1>Extra Data</h1>
-          <p>
-            <li>
+          <ul>
+          <li>
+          <i className="fa-solid fa-temperature-high"></i>
           {/* This temperature parameter accounts for the human perception of weather */}
-          Thermal sensation: {isCelsius ? moreTemps?.celsiusFeelsLike : moreTemps?.farenheitFeelsLike}</li>
-          <li>Visibility {weather?.visibility/1000}km</li>
-          
-          </p>
+          Thermal sensation: {isCelsius ? moreTemps?.celsiusFeelsLike : moreTemps?.farenheitFeelsLike}
+          </li>
+          <li>
+          <i className="fa-solid fa-eye-slash"></i>
+            Visibility: {weather?.visibility/1000}km</li>
+          <li>
+          <i class="fa-solid fa-water"></i>
+            Sea level: {weather?.main.sea_level} hPa</li>
+          <li>
+          <i className="fa-solid fa-arrow-up direction"></i>
+            Wind Direction: {weather?.wind.deg} Degrees</li>
+
+
+          <li>
+          <i className="fa-solid fa-wind"></i>
+            Wind Gust.: {weather?.wind.gust} m/s</li>
+          </ul>
           
           
           </article>
