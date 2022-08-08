@@ -3,6 +3,7 @@ import React from 'react'
 const footer = () => {
   return (
     <div className='Footer'>
+        <div className='footerContainer footerA'>
         <ul className='footerList'>
             <h3>Credit to</h3>
             <li>
@@ -41,7 +42,13 @@ const footer = () => {
                 <a href='#'>CSS</a>
             </li>
         </ul>
-
+    </div>
+    <div className='footerContainer footerB'>
+    <h3>Project Datails</h3>   
+    <p>
+    This app based in React JS was realized by Luis Fernando Gómez as a task for the Teacher <a href='https://www.linkedin.com/in/benjamin-flores-48541182/'>Benjamin Flores</a>. it was an important requirement for <a href='https://www.academlo.com/'>Academlo</a>.
+    </p> 
+    </div>
 
     </div>
   )
