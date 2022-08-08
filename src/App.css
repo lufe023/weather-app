@@ -156,7 +156,11 @@ background-color: white;
 padding: 50px 150px;
 
 }
-
+.Up{
+    position: sticky;
+    background-color: #1B4F72;
+    
+}
 .footerContainer{
     width: 50%;
     display: inline-flex;    
