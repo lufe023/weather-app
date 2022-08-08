@@ -1,0 +1,172 @@
+
+:root{
+    --font-family-A: 'Edu TAS Beginner', cursive;
+    ---font-family-Nunito: 'Nunito', sans-serif; 
+}
+
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+.App__container{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: var(---font-family-Nunito);
+
+}
+h1, h2, h3{
+    padding: 0;
+    margin: 0;
+}
+
+video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width:100%;
+    height: 100%;
+    
+    object-fit: cover;
+}
+
+.Maincontainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.moredata{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color:#1B4F72;
+}
+
+.Card__APP{
+    background-color: rgb(190, 190, 190);
+    width: 300px;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow:0px 1px 1px rgb(136, 136, 136);
+    color: #000;
+}
+
+.App__Title{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.hour{
+    font-size: 15px;
+    font-weight: 100;
+}
+.APP__Img__Container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+}
+.App__img{
+    width: 200px;
+}
+.App__Degrees{
+    cursor: pointer;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.App__Description{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+.App__button{
+    border: solid 0px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 30px;
+    box-shadow:0 1px 3px;
+}
+
+.App__button:hover{
+    box-shadow:0 1px 5px;
+}
+
+
+
+.App__details li{
+    
+    margin: 5px;
+    width: 140px;
+    display: inline-block;
+
+}
+.App__Details_Item{
+    border-radius: 20px;
+    cursor: pointer;
+    position:absolute;
+    width:130px;
+    background-color: rgb(226, 226, 226);
+    opacity: 0%;
+    
+    transition: opacity 200ms ease-in-out;
+}
+.App__Details_Item:hover{
+opacity: 100%;
+width: 130px;
+}
+.minMax{
+    cursor: pointer;
+    text-align: center;
+    min-width:60px ;
+}
+
+.minMax span{
+    display:block;
+}
+
+
+.Footer{
+background-color: white;
+height: 300px;
+padding: 50px 150px;
+}
+
+.footerList{
+    margin-right: 50px;
+    display: inline-block;
+}
+.footerList li{
+    margin: 20px 0px;
+
+}
+.footerList li a{
+    margin: 20px 0px;
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+}
+
+.footerList li a:hover{
+    color:#1B4F72;
+}

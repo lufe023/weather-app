@@ -1,0 +1,50 @@
+[
+    {
+        "name" : "default",
+        "URL" : "../../public/video/default.mp4",
+        "imgAlt" : "../../public/img/City default.jfif"
+    },
+
+    {
+        "name" : "Clear",
+        "URL" : "../../public/video/Clear.mp4",
+        "imgAlt" : "../../public/img/clear-blue-sky.webp"
+    },
+
+    {
+        "name" : "Clouds",
+        "URL" : "../../public/video/Clouds.mp4",
+        "imgAlt" : "../../public/img/Cloud.jpg"
+    },
+
+    {
+        "name" : "Thunderstorm",
+        "URL" : "../../public/video/Thunderstorm.mp4",
+        "imgAlt" : "../../public/img/Thunderstorm.webp"
+    },
+
+    {
+        "name" : "Drizzle",
+        "URL" : "../../public/video/Drizzle.mp4",
+        "imgAlt" : "../../public/img/drizzle.jpg"
+    },
+
+    {
+        "name" : "Rain",
+        "URL" : "../../public/video/Rain.mp4",
+        "imgAlt" : "../../public/img/Rain.jpg"
+    },
+
+    {
+        "name" : "Snow",
+        "URL" : "../../public/video/Snow.mp4",
+        "imgAlt" : "../../public/img/Snow.webp"
+    },
+
+    {
+        "name" : "Ssdsd",
+        "URL" : "../../public/video/Snow.mp4",
+        "imgAlt" : "../../public/img/sdsdd.jpg"
+    }
+
+]
