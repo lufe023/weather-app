@@ -19,25 +19,6 @@ body{
 
 }
 
-/* customized scroll */
-/*
-.App::-webkit-scrollbar{
-    width: 60px;
-    position: relative;
-    background-color: #1B4F72;
-
-    }
-    
-    .App::-webkit-scrollbar-thumb{
-    background-image: url("/public/img/sun.png");
-    background-repeat: no-repeat;
-    width: 64px;
-    position: relative;
-    margin-left: -10px;
-    float: left;
-    }
-
-*/
 
 .fa-solid{
     margin-right: 10px;
