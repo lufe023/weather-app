@@ -79,11 +79,20 @@ video {
     width: 330px;
     border-radius: 30px;
     padding: 30px 20px;
-    box-shadow:0px 1px 1px rgb(136, 136, 136);
+    box-shadow:0px 1px 1px rgb(142, 142, 142);
     backdrop-filter:blur(4px);
     color: #000;
 }
 
+.Card__Extra{
+    background-color: rgba(255, 255, 255);
+    width: 330px;
+    border-radius: 30px;
+    padding: 30px 20px;
+    box-shadow:0px 1px 1px rgb(0, 0, 0);
+    backdrop-filter:blur(4px);
+    color: #000;
+}
 .App__Title{
     font-size: 13px;
     font-weight: 300;
@@ -157,9 +166,7 @@ width: 120px;
     min-width:60px ;
 
 }
-.direction{
-    transform: rotate(344deg)
-}
+
 .minMax span{
     display:block;
 }

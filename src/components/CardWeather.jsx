@@ -63,13 +63,16 @@ const CardWeather = ({ lat, lon }) => {
       VideoURL ="video[0].URL"
     }
     }
-
+//weather?.wind.deg
+    const objWindDirection = {
+      transform: `rotate(${weather?.wind.deg}deg)`
+    }
 
     // data:weather?.weather[0].main
     return (
       
       <div className="container">
-       
+      
         <div className="Maincontainer">
         
   <video src={VideoURL} autoPlay={true} muted={true} loop={true} poster={imgAlt}></video>
@@ -155,7 +158,7 @@ const CardWeather = ({ lat, lon }) => {
         </div>
         <section className="moredata">
           
-          <article className="Card__APP">
+          <article className="Card__Extra">
           <h1>Extra Data</h1>
           <ul>
           <li>
@@ -170,8 +173,9 @@ const CardWeather = ({ lat, lon }) => {
           <i class="fa-solid fa-water"></i>
             Sea level: {weather?.main.sea_level} hPa</li>
           <li>
-          <i className="fa-solid fa-arrow-up direction"></i>
-            Wind Direction: {weather?.wind.deg} Degrees</li>
+
+          <i className="fa-solid fa-arrow-up" style={objWindDirection}></i>
+            Wind Direction: {weather?.wind.deg} Degrees </li>
 
 
           <li>

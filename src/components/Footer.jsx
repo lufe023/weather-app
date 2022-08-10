@@ -22,6 +22,15 @@ const footer = () => {
             <li>
                 <a target="blank" href='https://pages.github.com/'>Github Pages</a>
             </li>
+
+            <li>
+                <a target="blank" href='https://fontawesome.com/icons'>Font Awesome</a>
+            </li>
+
+            <li>
+                <a target="blank" href='https://fonts.google.com/'>Google Fonts</a>
+            </li>
+
         </ul>
 
 
@@ -41,6 +50,14 @@ const footer = () => {
 
             <li>
                 <a href='#'>CSS</a>
+            </li>
+        
+            <h3>Author</h3>
+            <li>
+                <a href='https://github.com/lufe023'>Portafolio GitHub</a>
+            </li>
+            <li>
+                <a href='mailto:lufe023@gmail.com'>lufe023@gmail.com</a>
             </li>
         </ul>
     </div>
